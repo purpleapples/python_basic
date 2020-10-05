@@ -34,3 +34,16 @@ x = tmp
 
 print(x, y)
 
+
+class DocStrTest():
+    """ DocStrTest"""
+    """DocStrTest2"""
+
+
+x = DocStrTest()
+print(dir(x))
+print(x.__doc__)
+
+def doctest():
+    """sdfsdioufhsdoifj"""
+
